@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sahitya&family=Scheherazade:wght@700&family=Signika&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1 ,h2{
+    font-family: 'Signika', sans-serif;
+}
+p{
+    font-family: 'Signika', sans-serif;
+}
+.heropage{
+    height: 80vh;
+    display: inline-grid;
+    grid-template-columns: 50vw 50vw;
+    padding: 0px;
+    
+}
+.heropageleft{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40vw 10vw;
+    padding: 10px;
+}
+.headerleft{
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+.heropageleft h1{
+    font-size: 140px;
+    color: #F52424;
+}
+.textleft{
+    padding: 20vh 80px;
+    color: #F52424;
+   
+}
+.textleft h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.textleft p{
+    font-size: 18px;
+    padding-right: 15vw;
+    padding-top: 20px;
+    border-right-style: solid;
+}
+
+.heropageright{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 10vw 20vw;
+    background-color: #F52424;
+    padding: 10px;
+}
+.headerright{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+.heropageright h1{
+    font-size: 140px;
+    color: white;
+}
+.socialmedia{
+    position: absolute;
+    display: inline-grid;
+    grid-template-columns: auto;
+    right: 40px;
+    top: 30vh;
+}
+.contentpage{
+    padding: 10vh 15vw;
+    position: relative;
+}
+.postpage{
+    display: inline-grid;
+    grid-template-columns: auto 35vw auto;
+    padding: 0px;
+}
+.post{
+    padding: 20px;
+}
+.post h3{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Sahitya', serif;
+}
+.post p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.post img{
+    width: 100%;
+}
+.contentpage button{
+    font-family: 'Sahitya', serif;
+    position: absolute;
+    left: 45vw;
+    bottom: 0px;
+    height: 5vh;
+    width: 10vw;
+    background-color: #F52424;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
